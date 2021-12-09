@@ -5,11 +5,12 @@ import UIKit
 class InfoViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     @IBOutlet weak var nameField: UITextField!
+
     @IBOutlet weak var weightField: UITextField!
     @IBOutlet weak var heightField: UITextField!
     @IBOutlet weak var ageField: UITextField!
     @IBOutlet weak var inchesField: UITextField!
-    
+
     @IBOutlet weak var genderPicker: UIPickerView!
     
     @IBOutlet weak var exercisePicker: UIPickerView!
@@ -70,6 +71,11 @@ class InfoViewController: UIViewController, UIPickerViewDataSource, UIPickerView
     
 
     @IBAction func enterVal(_ sender: Any) {
+        if(nameField.text! == "" || weightField.text! == "" || heightField.text! == "" || inchesField.text! == "" || ageField.text! == "")
+        {
+            
+            return textView.text = "PLEASE FILL IN ALL THE INFORMATION"
+        }
         let pounds = Double(weightField.text!)
         let kilo = pounds! / 2.2
         let ft = Double(heightField.text!)

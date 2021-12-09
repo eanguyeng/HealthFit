@@ -18,9 +18,9 @@ class BicepViewController: UIViewController {
         super.viewDidLoad()
         title = "Bicep Workout"
         
-        playerView.load(withVideoId: "")
-        playerView2.load(withVideoId: "")
-        playerView3.load(withVideoId: "")
+        playerView.load(withVideoId: "v4jRpKD50Nk")
+        playerView2.load(withVideoId: "grdqNljPY0Q")
+        playerView3.load(withVideoId: "Y3RQY_yGOL0")
 
         
     }

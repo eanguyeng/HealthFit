@@ -18,10 +18,10 @@ class TricepViewController: UIViewController {
 
         super.viewDidLoad()
         title = "Tricep Workout"
-        playerView.load(withVideoId: "")
-        playerView2.load(withVideoId: "")
-        playerView3.load(withVideoId: "")
-        playerView4.load(withVideoId: "")
+        playerView.load(withVideoId: "gE-TjRRok9M")
+        playerView2.load(withVideoId: "xzfHFQ7kAuk")
+        playerView3.load(withVideoId: "5WPtv3Nl_U0")
+        playerView4.load(withVideoId: "hlib2jwbxBQ")
         
         // Do any additional setup after loading the view.
     }
