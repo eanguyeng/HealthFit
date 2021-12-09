@@ -252,7 +252,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikb-io-S09">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1112"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="1060"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AS0-VT-UI5">
                                         <rect key="frame" x="0.0" y="0.0" width="406" height="1200"/>
@@ -407,7 +407,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FkF-eR-8Qz">
-                                <rect key="frame" x="20" y="481" width="374" height="249"/>
+                                <rect key="frame" x="20" y="560" width="374" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <color key="tintColor" red="0.82546079159999997" green="0.79066854720000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -447,6 +447,22 @@
                                     <action selector="enterVal:" destination="cJy-Wa-evD" eventType="touchUpInside" id="AOq-Em-nrU"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nTt-bY-b7D">
+                                <rect key="frame" x="0.0" y="424" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cJy-Wa-evD" id="pKO-Sa-K6L"/>
+                                    <outlet property="delegate" destination="cJy-Wa-evD" id="abu-0o-kev"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G9r-m0-aGH">
+                                <rect key="frame" x="0.0" y="495" width="414" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cJy-Wa-evD" id="7j1-1K-hsI"/>
+                                    <outlet property="delegate" destination="cJy-Wa-evD" id="lqL-cC-jZN"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PdD-cA-jTz"/>
                         <color key="backgroundColor" red="0.82159239049999999" green="0.78256720300000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -455,6 +471,8 @@
                     <navigationItem key="navigationItem" id="fjf-QN-jqF"/>
                     <connections>
                         <outlet property="ageField" destination="0GF-Nr-8im" id="g3n-Ou-BPQ"/>
+                        <outlet property="exercisePicker" destination="G9r-m0-aGH" id="Rdx-5S-ftm"/>
+                        <outlet property="genderPicker" destination="nTt-bY-b7D" id="Tit-Bd-aMk"/>
                         <outlet property="heightField" destination="uUw-4j-PFh" id="hDX-kR-mTq"/>
                         <outlet property="inchesField" destination="vTj-ka-l3h" id="6EU-bC-Aav"/>
                         <outlet property="nameField" destination="Ptj-qG-vvq" id="AFr-53-pl3"/>

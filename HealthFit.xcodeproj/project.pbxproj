@@ -20,9 +20,9 @@
 		4F92B34527600008004FFB51 /* ArmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B34427600008004FFB51 /* ArmViewController.swift */; };
 		4F92B34727607BB0004FFB51 /* BicepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B34627607BB0004FFB51 /* BicepViewController.swift */; };
 		4F92B349276168F1004FFB51 /* TricepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B348276168F1004FFB51 /* TricepViewController.swift */; };
-		56F7742C3A7143B7819EB794 /* Pods_HealthFitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A8F7CFD36D9A4CB3801BE /* Pods_HealthFitTests.framework */; };
-		AF62C3F082FE167CF3FED4B3 /* Pods_HealthFit_HealthFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A976D2C840FE38EAC0FDACA /* Pods_HealthFit_HealthFitUITests.framework */; };
-		C602E7F5E65976D4EFAD4249 /* Pods_HealthFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D95B96A62E811F56000BA0F /* Pods_HealthFit.framework */; };
+		B3DBC1C790593E3A6B1652D6 /* Pods_HealthFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD00E83996B07B278678C0D /* Pods_HealthFit.framework */; };
+		ECD77D460ED92781BFAC62AB /* Pods_HealthFit_HealthFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2123AD9F84B9C3D44A082EA7 /* Pods_HealthFit_HealthFitUITests.framework */; };
+		FA2FB7D9BD95D98A0A88A291 /* Pods_HealthFitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16322F5EDB537E46532DB732 /* Pods_HealthFitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CE2E378270A3A65A74658A1 /* Pods-HealthFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit.release.xcconfig"; path = "Target Support Files/Pods-HealthFit/Pods-HealthFit.release.xcconfig"; sourceTree = "<group>"; };
-		1B1799AA8F5DDE22DAAE3C95 /* Pods-HealthFit-HealthFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit-HealthFitUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthFit-HealthFitUITests/Pods-HealthFit-HealthFitUITests.release.xcconfig"; sourceTree = "<group>"; };
-		38C1C0C4F21013C00D18BAD3 /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit-HealthFitUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthFit-HealthFitUITests/Pods-HealthFit-HealthFitUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3AD4E681B04B3E9D2F7C5467 /* Pods-HealthFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit.debug.xcconfig"; path = "Target Support Files/Pods-HealthFit/Pods-HealthFit.debug.xcconfig"; sourceTree = "<group>"; };
-		4A7A8F7CFD36D9A4CB3801BE /* Pods_HealthFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A976D2C840FE38EAC0FDACA /* Pods_HealthFit_HealthFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFit_HealthFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D95B96A62E811F56000BA0F /* Pods_HealthFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16322F5EDB537E46532DB732 /* Pods_HealthFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2123AD9F84B9C3D44A082EA7 /* Pods_HealthFit_HealthFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFit_HealthFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		337A5AE65F1F345D68162194 /* Pods-HealthFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit.release.xcconfig"; path = "Target Support Files/Pods-HealthFit/Pods-HealthFit.release.xcconfig"; sourceTree = "<group>"; };
 		4F92B30D275EE33F004FFB51 /* HealthFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F92B310275EE33F004FFB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F92B312275EE33F004FFB51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,8 +65,12 @@
 		4F92B34427600008004FFB51 /* ArmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmViewController.swift; sourceTree = "<group>"; };
 		4F92B34627607BB0004FFB51 /* BicepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepViewController.swift; sourceTree = "<group>"; };
 		4F92B348276168F1004FFB51 /* TricepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepViewController.swift; sourceTree = "<group>"; };
-		7D7EEEA0A37FD780CDF3016B /* Pods-HealthFitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFitTests.release.xcconfig"; path = "Target Support Files/Pods-HealthFitTests/Pods-HealthFitTests.release.xcconfig"; sourceTree = "<group>"; };
-		FB154F15A2E6BDD2419427AF /* Pods-HealthFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFitTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthFitTests/Pods-HealthFitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63B0291BDB659D4DCCF25A2D /* Pods-HealthFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit.debug.xcconfig"; path = "Target Support Files/Pods-HealthFit/Pods-HealthFit.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD00E83996B07B278678C0D /* Pods_HealthFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BD4BAF47DCF78609F8E02 /* Pods-HealthFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFitTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthFitTests/Pods-HealthFitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B2AFB262FEE8FB2C492569 /* Pods-HealthFitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFitTests.release.xcconfig"; path = "Target Support Files/Pods-HealthFitTests/Pods-HealthFitTests.release.xcconfig"; sourceTree = "<group>"; };
+		E594E90990C7902A5DFF590D /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit-HealthFitUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthFit-HealthFitUITests/Pods-HealthFit-HealthFitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC183984D1014E53934DF5E /* Pods-HealthFit-HealthFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit-HealthFitUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthFit-HealthFitUITests/Pods-HealthFit-HealthFitUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C602E7F5E65976D4EFAD4249 /* Pods_HealthFit.framework in Frameworks */,
+				B3DBC1C790593E3A6B1652D6 /* Pods_HealthFit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F7742C3A7143B7819EB794 /* Pods_HealthFitTests.framework in Frameworks */,
+				FA2FB7D9BD95D98A0A88A291 /* Pods_HealthFitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF62C3F082FE167CF3FED4B3 /* Pods_HealthFit_HealthFitUITests.framework in Frameworks */,
+				ECD77D460ED92781BFAC62AB /* Pods_HealthFit_HealthFitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +104,12 @@
 		0F25A038856BAA810589B72F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3AD4E681B04B3E9D2F7C5467 /* Pods-HealthFit.debug.xcconfig */,
-				0CE2E378270A3A65A74658A1 /* Pods-HealthFit.release.xcconfig */,
-				38C1C0C4F21013C00D18BAD3 /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */,
-				1B1799AA8F5DDE22DAAE3C95 /* Pods-HealthFit-HealthFitUITests.release.xcconfig */,
-				FB154F15A2E6BDD2419427AF /* Pods-HealthFitTests.debug.xcconfig */,
-				7D7EEEA0A37FD780CDF3016B /* Pods-HealthFitTests.release.xcconfig */,
+				63B0291BDB659D4DCCF25A2D /* Pods-HealthFit.debug.xcconfig */,
+				337A5AE65F1F345D68162194 /* Pods-HealthFit.release.xcconfig */,
+				E594E90990C7902A5DFF590D /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */,
+				EBC183984D1014E53934DF5E /* Pods-HealthFit-HealthFitUITests.release.xcconfig */,
+				B22BD4BAF47DCF78609F8E02 /* Pods-HealthFitTests.debug.xcconfig */,
+				C5B2AFB262FEE8FB2C492569 /* Pods-HealthFitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 				4F92B331275EE342004FFB51 /* HealthFitUITests */,
 				4F92B30E275EE33F004FFB51 /* Products */,
 				0F25A038856BAA810589B72F /* Pods */,
-				B3928B9E2C24ACBD3FFE3BBD /* Frameworks */,
+				C2B56FF88F10E7289D3E565F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,12 +173,12 @@
 			path = HealthFitUITests;
 			sourceTree = "<group>";
 		};
-		B3928B9E2C24ACBD3FFE3BBD /* Frameworks */ = {
+		C2B56FF88F10E7289D3E565F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D95B96A62E811F56000BA0F /* Pods_HealthFit.framework */,
-				4A976D2C840FE38EAC0FDACA /* Pods_HealthFit_HealthFitUITests.framework */,
-				4A7A8F7CFD36D9A4CB3801BE /* Pods_HealthFitTests.framework */,
+				7BD00E83996B07B278678C0D /* Pods_HealthFit.framework */,
+				2123AD9F84B9C3D44A082EA7 /* Pods_HealthFit_HealthFitUITests.framework */,
+				16322F5EDB537E46532DB732 /* Pods_HealthFitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,11 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F92B337275EE342004FFB51 /* Build configuration list for PBXNativeTarget "HealthFit" */;
 			buildPhases = (
-				97C31E57207319BFA3F313BB /* [CP] Check Pods Manifest.lock */,
+				E626D1675BF59D9A96DDF0D7 /* [CP] Check Pods Manifest.lock */,
 				4F92B309275EE33F004FFB51 /* Sources */,
 				4F92B30A275EE33F004FFB51 /* Frameworks */,
 				4F92B30B275EE33F004FFB51 /* Resources */,
-				E9500378DFA9798BCA0FCB63 /* [CP] Embed Pods Frameworks */,
+				848AD397591D5C1AB044617A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,7 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F92B33A275EE342004FFB51 /* Build configuration list for PBXNativeTarget "HealthFitTests" */;
 			buildPhases = (
-				FE9434AF662A72C52F88158C /* [CP] Check Pods Manifest.lock */,
+				12715324AA37B34927FF13AF /* [CP] Check Pods Manifest.lock */,
 				4F92B31F275EE342004FFB51 /* Sources */,
 				4F92B320275EE342004FFB51 /* Frameworks */,
 				4F92B321275EE342004FFB51 /* Resources */,
@@ -228,11 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F92B33D275EE342004FFB51 /* Build configuration list for PBXNativeTarget "HealthFitUITests" */;
 			buildPhases = (
-				EFD8B24F98F9823DFD4C5282 /* [CP] Check Pods Manifest.lock */,
+				83503E215EBA51D91B1D4D88 /* [CP] Check Pods Manifest.lock */,
 				4F92B32A275EE342004FFB51 /* Sources */,
 				4F92B32B275EE342004FFB51 /* Frameworks */,
 				4F92B32C275EE342004FFB51 /* Resources */,
-				A64B424881A06BF66E48EC53 /* [CP] Embed Pods Frameworks */,
+				3BC7D7B6879E24A165243D9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,7 +314,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		97C31E57207319BFA3F313BB /* [CP] Check Pods Manifest.lock */ = {
+		12715324AA37B34927FF13AF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,14 +329,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthFit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HealthFitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A64B424881A06BF66E48EC53 /* [CP] Embed Pods Frameworks */ = {
+		3BC7D7B6879E24A165243D9E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,24 +353,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthFit-HealthFitUITests/Pods-HealthFit-HealthFitUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9500378DFA9798BCA0FCB63 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EFD8B24F98F9823DFD4C5282 /* [CP] Check Pods Manifest.lock */ = {
+		83503E215EBA51D91B1D4D88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,7 +375,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE9434AF662A72C52F88158C /* [CP] Check Pods Manifest.lock */ = {
+		848AD397591D5C1AB044617A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthFit/Pods-HealthFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E626D1675BF59D9A96DDF0D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,7 +407,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HealthFitTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HealthFit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -534,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -589,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -601,12 +601,13 @@
 		};
 		4F92B338275EE342004FFB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD4E681B04B3E9D2F7C5467 /* Pods-HealthFit.debug.xcconfig */;
+			baseConfigurationReference = 63B0291BDB659D4DCCF25A2D /* Pods-HealthFit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HealthFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,12 +621,13 @@
 		};
 		4F92B339275EE342004FFB51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE2E378270A3A65A74658A1 /* Pods-HealthFit.release.xcconfig */;
+			baseConfigurationReference = 337A5AE65F1F345D68162194 /* Pods-HealthFit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HealthFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,7 +641,7 @@
 		};
 		4F92B33B275EE342004FFB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB154F15A2E6BDD2419427AF /* Pods-HealthFitTests.debug.xcconfig */;
+			baseConfigurationReference = B22BD4BAF47DCF78609F8E02 /* Pods-HealthFitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,7 +663,7 @@
 		};
 		4F92B33C275EE342004FFB51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7EEEA0A37FD780CDF3016B /* Pods-HealthFitTests.release.xcconfig */;
+			baseConfigurationReference = C5B2AFB262FEE8FB2C492569 /* Pods-HealthFitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -683,7 +685,7 @@
 		};
 		4F92B33E275EE342004FFB51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38C1C0C4F21013C00D18BAD3 /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */;
+			baseConfigurationReference = E594E90990C7902A5DFF590D /* Pods-HealthFit-HealthFitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -703,7 +705,7 @@
 		};
 		4F92B33F275EE342004FFB51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B1799AA8F5DDE22DAAE3C95 /* Pods-HealthFit-HealthFitUITests.release.xcconfig */;
+			baseConfigurationReference = EBC183984D1014E53934DF5E /* Pods-HealthFit-HealthFitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

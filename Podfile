@@ -5,10 +5,6 @@ target 'HealthFit' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-pod 'youtube-ios-player-helper'
-
-
-
   # Pods for HealthFit
 
   target 'HealthFitTests' do
@@ -19,5 +15,7 @@ pod 'youtube-ios-player-helper'
   target 'HealthFitUITests' do
     # Pods for testing
   end
+
+pod 'youtube-ios-player-helper'
 
 end
