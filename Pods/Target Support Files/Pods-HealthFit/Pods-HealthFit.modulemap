@@ -1,0 +1,6 @@
+framework module Pods_HealthFit {
+  umbrella header "Pods-HealthFit-umbrella.h"
+
+  export *
+  module * { export * }
+}
