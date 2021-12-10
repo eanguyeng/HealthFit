@@ -29,7 +29,7 @@ Check BMI (Fill in text calculate BMI and Caloric per day)
 
 Arm
 
-Burn Fat(Empty view controller)
+Burn Fat(Empty view controller example for future use)
 
 These are all buttons. In Arm you will see another 3 icons.
 
@@ -37,7 +37,7 @@ Bicep
 
 Tricep (Can scroll down)
 
-Deltoid(Empty View Controller)
+Deltoid(Empty View Controller example for future use.)
 
 The button bicep and tricep are working. It has steps and videos that I create to show how to
 do each exercise to build that certain part of the muscle.
