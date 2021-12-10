@@ -50,3 +50,5 @@ the user on how to do each exercise the right way.
 The check bmi view controller has improved. It won't crash when the text field are empty. It
 will request user to fill in all the field. It will take the information calculate the BMI and
 caloric intake that based on the person's gender, height, weight, and age.
+
+Future for this app. Add logo, add a daily calories count and schedule for the exercises. Also create list with coredata where people can put in their goal.
