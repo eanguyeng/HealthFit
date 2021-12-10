@@ -25,7 +25,7 @@ Fifth: run the project on ios 14.5 iphone 12 pro max
 
 After you run the project you will see three icon. 
 
-Check BMI
+Check BMI (Fill in text calculate BMI and Caloric per day)
 
 Arm
 
@@ -35,7 +35,7 @@ These are all buttons. In Arm you will see another 3 icons.
 
 Bicep
 
-Tricep
+Tricep (Can scroll down)
 
 Deltoid(Empty View Controller)
 
