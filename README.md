@@ -2,6 +2,7 @@
 ios app 
 
 Name: Eanguy Eng
+
 This will be a health and fitness app.
 It is created to help the people who wants to start the journey to achieve their goal.
 This app can calculate your BMI which will allow you to set your goals.
@@ -12,15 +13,15 @@ of what I could add on it in the future, if I want to continue making it better.
 
 To start the project
 
-first: Clone the project 
+First: Clone the project 
 
-second: open terminal
+Second: open terminal
 
-third: locate the file you clone
+Third: locate the file you clone
 
-fourth: open HealthFit.xcworkspace
+Fourth: open HealthFit.xcworkspace
 
-fifth: run the project
+Fifth: run the project on ios 14.5 iphone 12 pro max
 
 After you run the project you will see three icon. 
 
@@ -28,18 +29,24 @@ Check BMI
 
 Arm
 
-Burn Fat
+Burn Fat(Empty view controller)
 
-These are all buttons. Check BMI and Arm are working. In Arm you will see another 3 icons.
+These are all buttons. In Arm you will see another 3 icons.
 
 Bicep
 
 Tricep
 
-Deltoid
+Deltoid(Empty View Controller)
 
 The button bicep and tricep are working. It has steps and videos that I create to show how to
 do each exercise to build that certain part of the muscle.
 
-This app is a work in progress. There are alot of things left to add on.
+This app is a work in progress. 
 
+I created a youtube account and made videos for each exercise that was put into this app. It will show
+the user on how to do each exercise the right way.
+
+The check bmi view controller has improved. It won't crash when the text field are empty. It
+will request user to fill in all the field. It will take the information calculate the BMI and
+caloric intake that based on the person's gender, height, weight, and age.
