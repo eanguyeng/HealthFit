@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3BE7CE2762E08A00BBEC4F /* BurnFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BE7CD2762E08A00BBEC4F /* BurnFatViewController.swift */; };
+		4F3BE7D02762E0E800BBEC4F /* DeltoidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BE7CF2762E0E800BBEC4F /* DeltoidViewController.swift */; };
 		4F92B311275EE33F004FFB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B310275EE33F004FFB51 /* AppDelegate.swift */; };
 		4F92B313275EE33F004FFB51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B312275EE33F004FFB51 /* SceneDelegate.swift */; };
 		4F92B315275EE33F004FFB51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92B314275EE33F004FFB51 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		16322F5EDB537E46532DB732 /* Pods_HealthFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2123AD9F84B9C3D44A082EA7 /* Pods_HealthFit_HealthFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthFit_HealthFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		337A5AE65F1F345D68162194 /* Pods-HealthFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthFit.release.xcconfig"; path = "Target Support Files/Pods-HealthFit/Pods-HealthFit.release.xcconfig"; sourceTree = "<group>"; };
+		4F3BE7CD2762E08A00BBEC4F /* BurnFatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnFatViewController.swift; sourceTree = "<group>"; };
+		4F3BE7CF2762E0E800BBEC4F /* DeltoidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltoidViewController.swift; sourceTree = "<group>"; };
 		4F92B30D275EE33F004FFB51 /* HealthFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F92B310275EE33F004FFB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F92B312275EE33F004FFB51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				4F92B34427600008004FFB51 /* ArmViewController.swift */,
 				4F92B34627607BB0004FFB51 /* BicepViewController.swift */,
 				4F92B348276168F1004FFB51 /* TricepViewController.swift */,
+				4F3BE7CD2762E08A00BBEC4F /* BurnFatViewController.swift */,
+				4F3BE7CF2762E0E800BBEC4F /* DeltoidViewController.swift */,
 				4F92B316275EE33F004FFB51 /* Main.storyboard */,
 				4F92B319275EE342004FFB51 /* Assets.xcassets */,
 				4F92B31B275EE342004FFB51 /* LaunchScreen.storyboard */,
@@ -423,11 +429,13 @@
 			files = (
 				4F92B315275EE33F004FFB51 /* ViewController.swift in Sources */,
 				4F92B311275EE33F004FFB51 /* AppDelegate.swift in Sources */,
+				4F3BE7D02762E0E800BBEC4F /* DeltoidViewController.swift in Sources */,
 				4F92B313275EE33F004FFB51 /* SceneDelegate.swift in Sources */,
 				4F92B349276168F1004FFB51 /* TricepViewController.swift in Sources */,
 				4F92B341275EE39C004FFB51 /* HomeViewController.swift in Sources */,
 				4F92B343275EE3AC004FFB51 /* InfoViewController.swift in Sources */,
 				4F92B34727607BB0004FFB51 /* BicepViewController.swift in Sources */,
+				4F3BE7CE2762E08A00BBEC4F /* BurnFatViewController.swift in Sources */,
 				4F92B34527600008004FFB51 /* ArmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

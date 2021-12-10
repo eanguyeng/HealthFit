@@ -8,6 +8,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Burn Fat View Controller-->
+        <scene sceneID="gjm-Xn-HpC">
+            <objects>
+                <viewController id="K0u-sq-ZUk" customClass="BurnFatViewController" customModule="HealthFit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5kh-pF-Iie">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kSx-rj-90F"/>
+                        <color key="backgroundColor" red="0.82159239049999999" green="0.78256720300000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lw6-PC-nbV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBr-Yc-yQ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880" y="-614"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -71,6 +88,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="K0u-sq-ZUk" kind="show" id="VbK-TW-GYB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -136,6 +156,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="Dj0-uz-bmo" kind="show" id="zz8-Ij-BZc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6jr-5C-44s"/>
@@ -373,6 +396,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vEE-yy-Ly8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="918.75"/>
+        </scene>
+        <!--Deltoid View Controller-->
+        <scene sceneID="RBF-Q6-02m">
+            <objects>
+                <viewController id="Dj0-uz-bmo" customClass="DeltoidViewController" customModule="HealthFit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5oD-0a-Hg5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mKs-vz-4x4"/>
+                        <color key="backgroundColor" red="0.82546079159999997" green="0.79066854720000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JNF-3O-cGa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AgK-At-t3C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880" y="1394"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="Gd3-o5-2Ld">
